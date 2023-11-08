@@ -1,10 +1,325 @@
 <template>
     <div class="container">
+        <!-- 摘要 -->
+
+        <!-- 目录 -->
+
+        <!-- 一、基金投资概况 -->
+            <h1 class="title font_blue">一、基金投资概况</h1>
+            <!-- 1.投资进展 -->
+            <div class="company_block">
+                <h2 class="title font_blue">1. 投资进展</h2>
+                <div class="content">
+                    <div class="c_block">
+                        <div class="m_title font_blue">表1：基金运营情况（单位：亿元） </div>
+                        <table class="c_base_table f_table market_table">
+                            <tr>
+                                <td></td>
+                                <td>苏州钟鼎五号股权投资基金<p>合伙企业(有限合伙)</p></td>
+                                <td>苏州钟鼎五号青蓝股权投资基金<p>合伙企业(有限合伙)</p></td>
+                            </tr>
+                            <tr>
+                                <td class="font_bg_blue"></td>
+                                <td colspan="2" class="font_bg_blue font_weight">基金情况</td>
+                            </tr>
+                            <tr>
+                                <td>基金规模</td>
+                                <td>43.05</td>
+                                <td>4.05</td>
+                            </tr>
+                            <tr>
+                                <td>基金成立日</td>
+                                <td>2017年12月26日</td>
+                                <td>2017年12月29日</td>
+                            </tr>
+                            <tr>
+                                <td>现处阶段</td>
+                                <td colspan="2">退出期第2年（4年投资期+3年退出期+2年延长期）</td>
+                            </tr>
+                            <tr>
+                                <td>实缴规模</td>
+                                <td colspan="2">47.1</td>
+                            </tr>
+                            <tr>
+                                <td>缴付进度</td>
+                                <td colspan="2">100%</td>
+                            </tr>
+                            <tr>
+                                <td>基金倍数*</td>
+                                <td>43.05</td>
+                                <td>4.05</td>
+                            </tr>
+                            <tr>
+                                <td>基金规模</td>
+                                <td colspan="2">3.2</td>
+                            </tr>
+
+                            <tr>
+                                <td class="font_bg_blue"></td>
+                                <td colspan="2" class="font_bg_blue font_weight">投资情况</td>
+                            </tr>
+                            <tr>
+                                <td>已投金额</td>
+                                <td>40.4</td>
+                                <td>3.9</td>
+                            </tr>
+                            <tr>
+                                <td>实现金额</td>
+                                <td>22.8</td>
+                                <td>2.2</td>
+                            </tr>
+                            <tr>
+                                <td>已投项目数量</td>
+                                <td colspan="2">
+                                    54
+                                    <p>（其中早期专项基金鼎沁**投资了19个项目和1个子基金）</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="font_bg_blue"></td>
+                                <td colspan="2" class="font_bg_blue font_weight">分配情况***</td>
+                            </tr>
+                            <tr>
+                                <td>分配进度</td>
+                                <td>44.8%</td>
+                                <td>3.9</td>
+                            </tr>
+                            <tr>
+                                <td>分配金额</td>
+                                <td>19.9</td>
+                                <td>1.8</td>
+                            </tr>
+                        </table>
+                        <p class="font_s_5">*基金倍数=基金总价值/基金投资成本；基金总价值=基金已实现收益+未实现公允价值</p>
+                        <p class="font_s_5">**在本报告中，通过宁波鼎沁投资的项目的投资成本和收益相关数据，按照钟鼎五期的主基金（钟鼎五号）和平行基金（五号青蓝）的认缴规模比例91.4%和8.6%进行拆分至钟鼎五号和五号青蓝</p>
+                        <p class="font_s_5">***分配情况系对有限合伙人的分配，详情参见“基金分配情况”部分披露</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 2.上市项目情况 -->
+            <div class="company_block">
+                <h2 class="title font_blue">2. 上市项目情况</h2>
+                <div class="content">
+                    <div class="c_block">
+                        <div class="m_title">截止本报告期间，基金投资项目有5个项目上市，总价值40.8亿元，其中19.3亿已实现</div>
+                        <div class="m_title font_blue">表3. 上市项目（单位：万元） </div>
+                        <table class="c_base_table f_table market_table">
+                            <tr>
+                                <td class="font-middle">序号</td>
+                                <td class="font-middle">项目</td>
+                                <td>投资<p>金额</p></td>
+                                <td>上市<p>时间</p></td>
+                                <td>上市<p>板块</p></td>
+                                <td class="font-middle">股比*</td>
+                                <td>未实现<p>公允价值**</p></td>
+                                <td class="font-middle">总价值</td>
+                                <td class="font-middle">总倍数</td>
+                                <td>退出<p>状态</p></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>怡合达<p>301029</p></td>
+                                <td>30,030</td>
+                                <td>2021/7</td>
+                                <td>创业板</td>
+                                <td>5.9%</td>
+                                <td>152,762</td>
+                                <td>224,388</td>
+                                <td>7.5</td>
+                                <td>部分退出</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>泰坦科技<p>688133</p></td>
+                                <td>30,030</td>
+                                <td>2021/7</td>
+                                <td>创业板</td>
+                                <td>5.9%</td>
+                                <td>152,762</td>
+                                <td>224,388</td>
+                                <td>7.5</td>
+                                <td>部分退出</td>
+                            </tr>
+                            <tr class="font_weight font_bg_blue">
+                                <td style="background-color: #d9e2f3;border-right:0px;"></td>
+                                <td class="clear_sides_border">总计</td>
+                                <td class="clear_sides_border">251,680</td>
+                                <td class="clear_sides_border" colspan="3"></td>
+                                <td class="clear_sides_border">214,750</td>
+                                <td class="clear_sides_border">407,951</td>
+                                <td class="clear_sides_border">5.6</td>
+                                <td style="border-left:0px;"></td>
+                            </tr>
+                        </table>
+                        <p class="font_s_5">*股比：截止2023年6月30日钟鼎持有股份比例</p>
+                        <p class="font_s_5">**未实现公允价值=2023年6月30日收盘价*持有股数；总价值包含已变现</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 3. 退出项目情况 -->
+            <div class="company_block">
+                <h2 class="title font_blue">3. 退出项目情况 (含分红)</h2>
+                <div class="content">
+                    <div class="c_block">
+                        <div class="m_title">截止本报告期间，本基金累计已实现收益25.2亿，6个项目全部退出，8个项目部分退出，9个项目收到分红收益，详情如下：</div>
+                        <div class="m_title font_blue">表4.退出情况（单位：万元） </div>
+                        <table class="c_base_table f_table fund_table">
+                            <tr>
+                                <td class="font-middle">序号</td>
+                                <td class="font-middle">项目</td>
+                                <td>已实现<p>金额</p></td>
+                                <td>其中：<p>分红</p></td>
+                                <td>其中：退出<p>收益</p></td>
+                                <td>已退出<p>成本</p></td>
+                                <td>退出部分<p>倍数</p></td>
+                                <td>退出<p>比例</p></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>怡合达</td>
+                                <td>71,626</td>
+                                <td>2,076</td>
+                                <td>69,550</td>
+                                <td>7,847</td>
+                                <td>8.9</td>
+                                <td>26%</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>小鹏汽车</td>
+                                <td>66,981</td>
+                                <td>-</td>
+                                <td>66,981</td>
+                                <td>11,000</td>
+                                <td>6.1</td>
+                                <td>100%</td>
+                            </tr>
+                            <tr class="font_weight font_bg_blue">
+                                <td style="background-color: #d9e2f3;border-right:0px;"></td>
+                                <td class="clear_sides_border">总计</td>
+                                <td class="clear_sides_border">251,680</td>
+                                <td class="clear_sides_border">6,477</td>
+                                <td class="clear_sides_border">245,203</td>
+                                <td class="clear_sides_border">92,202</td>
+                                <td class="clear_sides_border">2.7</td>
+                                <td style="border-left:0px;"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. 已申报项目情况 -->
+            <div class="company_block">
+                <h2 class="title font_blue">4. 已申报项目情况</h2>
+                <div class="content">
+                    <div class="c_block">
+                        <div class="m_title">截止本报告期间，本基金有6个已申报项目：</div>
+                        <div class="m_title font_blue">表5.你申报项目 (单位：万元) </div>
+                        <table class="c_base_table f_table fund_table">
+                        <tr>
+                                <td>序号</td>
+                                <td>项目</td>
+                                <td>投资成本</td>
+                                <td>申报时间</td>
+                                <td>上市板块</td>
+                                <td>申报状态</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>六合宁远</td>
+                                <td>11,000</td>
+                                <td>2022/6</td>
+                                <td>创业板</td>
+                                <td>已问询</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>震坤行</td>
+                                <td>20,280</td>
+                                <td>2023/3</td>
+                                <td>美股</td>
+                                <td>已申报</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>货拉拉</td>
+                                <td>7,000</td>
+                                <td>2023/3</td>
+                                <td>港股</td>
+                                <td>已申报</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>嘉立创</td>
+                                <td>9,808</td>
+                                <td>2023/6</td>
+                                <td>主板</td>
+                                <td>已申报</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>鼎维固</td>
+                                <td>8,809</td>
+                                <td>2023/6</td>
+                                <td>主板</td>
+                                <td>已申报</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>生生物流</td>
+                                <td>2,255</td>
+                                <td>2023/6</td>
+                                <td>主板</td>
+                                <td>已问询</td>
+                            </tr>
+                            <tr class="font_weight font_bg_blue">
+                                <td class="font_bg_blue" style="border-right:0px;"></td>
+                                <td class="clear_sides_border">总计</td>
+                                <td class="clear_sides_border">5,9152</td>
+                                <td colspan="3" style="border-left:0px;"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. 拟申报项目情况 -->
+            <div class="company_block">
+                <h2 class="title font_blue">5.  拟申报项目情况</h2>
+                <div class="content">
+                    <div class="c_block">
+                        <div class="m_title">截止本报告披露，本基金有1个项目拟于2023年进行上市申报，详情如下：</div>
+                        <div class="m_title font_blue">表6.拟申报项目 (单位：万元) </div>
+                        <table class="c_base_table f_table fund_table">
+                        <tr>
+                                <td>序号</td>
+                                <td>项目</td>
+                                <td>领域</td>
+                                <td>投资成本</td>
+                                <td>拟申报板块</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>博雷顿</td>
+                                <td>科技服务</td>
+                                <td>6,100</td>
+                                <td>港股</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        <!-- 二、已投项目明细 -->
+        <h1 class="title font_blue">二、已投项目明细</h1>
+        <!-- 项目信息 -->
         <!-- <div class="company_block">
             <h2 class="title">1.  Usmile</h2>
             <div class="content">
                 <div class="c_block">
-                    <div class="c_title">1) 公司概述</div>
+                    <div class="m_title">1) 公司概述</div>
                     <table class="c_base_table">
                         <tr>
                             <td>公司简介</td>
@@ -43,7 +358,7 @@
                     </table>
                 </div>
                 <div class="c_block">
-                    <div class="c_title">2) 主要事项</div>
+                    <div class="m_title">2) 主要事项</div>
                     <table class="c_base_table">
                         <tr>
                             <td>业务情况</td>
@@ -68,7 +383,7 @@
                     </table>
                 </div>
                 <div class="c_block">
-                    <div class="c_title">3) 财务信息</div>
+                    <div class="m_title">3) 财务信息</div>
                     <table class="c_base_table f_table">
                         <tr>
                             <td>人民币 (百万元) </td>
@@ -85,16 +400,17 @@
                     </table>
                 </div>
                 <div class="c_block">
-                    <div class="c_title">3) 财务信息</div>
-                    <div class="c_title" style="font-weight: normal;">公司正在IPO敏感期暂不披露财务情况</div>
+                    <div class="m_title">3) 财务信息</div>
+                    <div class="m_title" style="font-weight: normal;">公司正在IPO敏感期暂不披露财务情况</div>
                 </div>
             </div>
         </div> -->
-        <div class="company_block">
+        <!-- 基金信息 -->
+        <!-- <div class="company_block">
             <h2 class="title">1.  宁波鼎施</h2>
             <div class="content">
                 <div class="c_block">
-                    <div class="c_title">1) 基金概况</div>
+                    <div class="m_title">1) 基金概况</div>
                     <table class="c_base_table">
                         <tr>
                             <td>成立目的</td>
@@ -115,7 +431,7 @@
                     </table>
                 </div>
                 <div class="c_block">
-                    <div class="c_title">2) 运营情况</div>
+                    <div class="m_title">2) 运营情况</div>
                     <table class="c_base_table">
                         <tr>
                             <td>出资人</td>
@@ -136,7 +452,7 @@
                     </table>
                 </div>
                 <div class="c_block">
-                    <div class="c_title">3) 主要目的</div>
+                    <div class="m_title">3) 主要目的</div>
                     <table class="c_base_table f_table fund_table">
                        <tr>
                             <td>序号</td>
@@ -190,13 +506,11 @@
                     </table>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
 <script>
-
-
 export default {
   name: "App",
   components: {
@@ -208,75 +522,9 @@ export default {
 </script>
 
 <style>
+    @import "./common.css"; /* 请替换为你的 CSS 文件路径 */
     .container{
         width: 900px;
         font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive !important;
-    }
-    .title{
-        font-size: 14pt;
-        font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
-    }
-    .c_block{
-        margin: 14px 0;
-    }
-    .c_title{
-        font-size: 11pt;
-        font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
-        font-weight: bold;
-        margin-bottom: 14px;
-    }
-    table {
-        border-collapse: collapse;
-        width: 95%;
-        font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
-        font-size: 10.5pt;
-    }
-    .c_base_table td {
-        border: 1px dotted #000;
-        padding: 8px;
-        padding-top: 4px;
-        text-align: left;
-        vertical-align: top; /* 设置垂直对齐到顶部 */
-    }
-    /* 第一列 */
-    .c_base_table td:first-child {
-        background-color: #d9e2f3; /* 设置背景颜色 */
-        font-weight: bold; /* 设置字体加粗 */
-        width: 20%;
-        border-left: 1px dashed #c8c8c8;
-        box-sizing: border-box;
-    }
-    .c_base_table td p {
-       margin-top:0px;
-       margin-bottom:4px;
-    }
-    /* 设置第一行的上边框样式 */
-    .c_base_table tr:first-child td {
-        border-top: 1px solid #4473c5; /* 设置上边框样式 */
-    }
-    /* 设置最后一行的下边框样式 */
-    .c_base_table tr:last-child td {
-        border-bottom: 1px solid #4473c5; /* 设置下边框样式 */
-    }
-    /* 财务的表格信息 */
-    .f_table td{
-        text-align: center;
-        vertical-align: top;
-    }
-    /* 财务第一列 */
-    .f_table td:first-child{
-        background-color:#fff;
-        text-align: left;
-        font-weight: bold;
-        width: 25%;
-    }
-    /* 第一行 */
-    .f_table tr:first-child td{
-        background-color: #d9e2f3; /* 设置背景颜色 */
-        font-weight: bold;
-    }
-    /* 基金第一列 */
-    .fund_table td:first-child{
-        width: 10%;
     }
 </style>
