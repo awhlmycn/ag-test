@@ -5,7 +5,7 @@
             <div class="title font_weight" style="text-align:center">摘要</div>
             <div class="font_5">
                 <p>苏州钟鼎五号股权投资基金合伙企业（有限合伙）（“钟鼎五号”）和苏州钟鼎五号青蓝股权投资基金合伙企业（有限合伙）（“五号青蓝”）（以下合称为“五期基金”）成立于2017年12月，总规模为47.1亿元，基金处于退出期第二年。截止2023年6月30日：</p>
-                <ol>
+                <ol style="padding-left:14px">
                     <li class="abstract_1">已投项目54个，对外投资总金额为44.3亿元，是基金规模的94%</li>
                     <li class="abstract_1">基金总价值140.7亿，是对外投资总金额的3.2倍</li>
                     <li class="abstract_1">已上市企业5家（怡合达、泰坦科技、盛航海运、兴通海运和小鹏汽车），未实现公允价值为21.5亿；已申报6家（六合宁远、震坤行、货拉拉、生生物流、嘉立创和鼎维固）；拟于2023年申报IPO有1家（博雷顿）</li>
@@ -34,7 +34,7 @@
         </div>
         <!-- 目录 -->
         <div class="directory">
-            <div class="font_3" style="text-align:center">目录</div>
+            <div class="font_3 font_weight" style="text-align:center">目录</div>
             <div>
                 <p class="directory_1">一、	基金投资概况</p>
                 <ol>
@@ -55,14 +55,14 @@
             </div>
         </div>
         <!-- 一、基金投资概况 -->
-        <h1 class="title font_blue">一、基金投资概况</h1>
+        <h1 class="font_5 font_weight_blue">一、基金投资概况</h1>
         <!-- 1.投资进展 -->
         <div class="company_block">
-            <h2 class="title font_blue">1. 投资进展</h2>
+            <h2 class="title font_weight_blue">1. 投资进展</h2>
             <div class="content">
                 <div class="c_block">
-                    <div class="m_title font_blue">表1：基金运营情况（单位：亿元） </div>
-                    <table class="c_base_table f_table market_table">
+                    <div class="c_title font_weight_blue">表1：基金运营情况（单位：亿元） </div>
+                    <table class="base_table fund_table">
                         <tr>
                             <td></td>
                             <td>苏州钟鼎五号股权投资基金<p>合伙企业(有限合伙)</p></td>
@@ -70,7 +70,7 @@
                         </tr>
                         <tr>
                             <td class="font_bg_blue"></td>
-                            <td colspan="2" class="font_bg_blue font_weight">基金情况</td>
+                            <td colspan="2" class="font_bg_blue font_padding">基金情况</td>
                         </tr>
                         <tr>
                             <td>基金规模</td>
@@ -106,7 +106,7 @@
 
                         <tr>
                             <td class="font_bg_blue"></td>
-                            <td colspan="2" class="font_bg_blue font_weight">投资情况</td>
+                            <td colspan="2" class="font_bg_blue font_padding">投资情况</td>
                         </tr>
                         <tr>
                             <td>已投金额</td>
@@ -127,8 +127,8 @@
                         </tr>
 
                         <tr>
-                            <td class="font_bg_blue"></td>
-                            <td colspan="2" class="font_bg_blue font_weight">分配情况***</td>
+                            <td class="font_bg_weight"></td>
+                            <td colspan="2" class="font_bg_weight font_padding">分配情况***</td>
                         </tr>
                         <tr>
                             <td>分配进度</td>
@@ -149,22 +149,22 @@
         </div>
         <!-- 2.上市项目情况 -->
         <div class="company_block">
-            <h2 class="title font_blue">2. 上市项目情况</h2>
+            <h2 class="title font_weight_blue">2. 上市项目情况</h2>
             <div class="content">
                 <div class="c_block">
-                    <div class="m_title">截止本报告期间，基金投资项目有5个项目上市，总价值40.8亿元，其中19.3亿已实现</div>
-                    <div class="m_title font_blue">表3. 上市项目（单位：万元） </div>
-                    <table class="c_base_table f_table market_table">
+                    <div class="font_5"><p>截止本报告期间，基金投资项目有5个项目上市，总价值40.8亿元，其中19.3亿已实现</p></div>
+                    <div class="c_title font_weight_blue">表3. 上市项目（单位：万元） </div>
+                    <table class="base_table market_table">
                         <tr>
-                            <td class="font-middle">序号</td>
-                            <td class="font-middle">项目</td>
+                            <td>序号</td>
+                            <td>项目</td>
                             <td>投资<p>金额</p></td>
                             <td>上市<p>时间</p></td>
                             <td>上市<p>板块</p></td>
-                            <td class="font-middle">股比*</td>
+                            <td>股比*</td>
                             <td>未实现<p>公允价值**</p></td>
-                            <td class="font-middle">总价值</td>
-                            <td class="font-middle">总倍数</td>
+                            <td>总价值</td>
+                            <td>总倍数</td>
                             <td>退出<p>状态</p></td>
                         </tr>
                         <tr>
@@ -191,7 +191,7 @@
                             <td>7.5</td>
                             <td>部分退出</td>
                         </tr>
-                        <tr class="font_weight font_bg_blue">
+                        <tr class="font_bg_weight">
                             <td style="background-color: #d9e2f3;border-right:0px;"></td>
                             <td class="clear_sides_border">总计</td>
                             <td class="clear_sides_border">251,680</td>
@@ -209,15 +209,15 @@
         </div>
         <!-- 3. 退出项目情况 -->
         <div class="company_block">
-            <h2 class="title font_blue">3. 退出项目情况 (含分红)</h2>
+            <h2 class="title font_weight_blue">3. 退出项目情况 (含分红)</h2>
             <div class="content">
                 <div class="c_block">
-                    <div class="m_title">截止本报告期间，本基金累计已实现收益25.2亿，6个项目全部退出，8个项目部分退出，9个项目收到分红收益，详情如下：</div>
-                    <div class="m_title font_blue">表4.退出情况（单位：万元） </div>
-                    <table class="c_base_table f_table fund_table">
+                    <div class="font_5"><p>截止本报告期间，本基金累计已实现收益25.2亿，6个项目全部退出，8个项目部分退出，9个项目收到分红收益，详情如下：</p></div>
+                    <div class="c_title font_weight_blue">表4.退出情况（单位：万元） </div>
+                    <table class="base_table market_table">
                         <tr>
-                            <td class="font-middle">序号</td>
-                            <td class="font-middle">项目</td>
+                            <td>序号</td>
+                            <td>项目</td>
                             <td>已实现<p>金额</p></td>
                             <td>其中：<p>分红</p></td>
                             <td>其中：退出<p>收益</p></td>
@@ -245,7 +245,7 @@
                             <td>6.1</td>
                             <td>100%</td>
                         </tr>
-                        <tr class="font_weight font_bg_blue">
+                        <tr class="font_bg_weight">
                             <td style="background-color: #d9e2f3;border-right:0px;"></td>
                             <td class="clear_sides_border">总计</td>
                             <td class="clear_sides_border">251,680</td>
@@ -262,13 +262,13 @@
 
         <!-- 4. 已申报项目情况 -->
         <div class="company_block">
-            <h2 class="title font_blue">4. 已申报项目情况</h2>
+            <h2 class="title font_weight_blue">4. 已申报项目情况</h2>
             <div class="content">
                 <div class="c_block">
-                    <div class="m_title">截止本报告期间，本基金有6个已申报项目：</div>
-                    <div class="m_title font_blue">表5.你申报项目 (单位：万元) </div>
-                    <table class="c_base_table f_table fund_table">
-                    <tr>
+                    <div class="font_5"><p>截止本报告期间，本基金有6个已申报项目：</p></div>
+                    <div class="c_title font_weight_blue">表5.你申报项目 (单位：万元) </div>
+                    <table class="base_table market_table">
+                        <tr>
                             <td>序号</td>
                             <td>项目</td>
                             <td>投资成本</td>
@@ -337,12 +337,12 @@
 
         <!-- 5. 拟申报项目情况 -->
         <div class="company_block">
-            <h2 class="title font_blue">5.  拟申报项目情况</h2>
+            <h2 class="title font_weight_blue">5.  拟申报项目情况</h2>
             <div class="content">
                 <div class="c_block">
-                    <div class="m_title">截止本报告披露，本基金有1个项目拟于2023年进行上市申报，详情如下：</div>
-                    <div class="m_title font_blue">表6.拟申报项目 (单位：万元) </div>
-                    <table class="c_base_table f_table fund_table">
+                    <div class="font_5"><p>截止本报告披露，本基金有1个项目拟于2023年进行上市申报，详情如下：</p></div>
+                    <div class="c_title font_weight_blue">表6.拟申报项目 (单位：万元) </div>
+                    <table class="base_table market_table apply_table">
                     <tr>
                             <td>序号</td>
                             <td>项目</td>
@@ -363,18 +363,18 @@
         </div>
 
         <!-- 二、已投项目明细 -->
-        <h1 class="title font_blue">二、已投项目明细</h1>
+        <h1 class="font_5 font_weight_blue">二、已投项目明细</h1>
         <!-- 项目信息 -->
-        <!-- <div class="company_block">
+        <div class="company_block">
             <h2 class="title">1.  Usmile</h2>
             <div class="content">
                 <div class="c_block">
                     <div class="m_title">1) 公司概述</div>
-                    <table class="c_base_table">
+                    <table class="base_table c_table">
                         <tr>
                             <td>公司简介</td>
                             <td>
-                                <p style="line-height: 150%;">
+                                <p>
                                     领先的国产“科技x美丽”品牌，目前主营电动牙刷等口腔护理产品，兼具产品力和获客力，敏锐地运用新的流量渠道进行消费者种草，将小家电“消费品化”，设计和销售中国消费者喜爱的创新产品
                                 </p>
                             </td>
@@ -409,7 +409,7 @@
                 </div>
                 <div class="c_block">
                     <div class="m_title">2) 主要事项</div>
-                    <table class="c_base_table">
+                    <table class="base_table c_table">
                         <tr>
                             <td>业务情况</td>
                             <td>
@@ -434,7 +434,7 @@
                 </div>
                 <div class="c_block">
                     <div class="m_title">3) 财务信息</div>
-                    <table class="c_base_table f_table">
+                    <table class="base_table c_table">
                         <tr>
                             <td>人民币 (百万元) </td>
                             <td>2022上半年</td>
@@ -451,21 +451,21 @@
                 </div>
                 <div class="c_block">
                     <div class="m_title">3) 财务信息</div>
-                    <div class="m_title" style="font-weight: normal;">公司正在IPO敏感期暂不披露财务情况</div>
+                    <div class="font_5">公司正在IPO敏感期暂不披露财务情况</div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- 基金信息 -->
-        <!-- <div class="company_block">
+        <div class="company_block">
             <h2 class="title">1.  宁波鼎施</h2>
             <div class="content">
                 <div class="c_block">
                     <div class="m_title">1) 基金概况</div>
-                    <table class="c_base_table">
+                    <table class="base_table c_table">
                         <tr>
                             <td>成立目的</td>
                             <td>
-                                <p style="line-height: 150%;">
+                                <p>
                                     宁波鼎施、深圳鼎琨、苏州鼎珩三家为我司VC二期基金的三个投资主体，主要投向早期科技类企业及消费零售类企业
                                 </p>
                             </td>
@@ -482,7 +482,7 @@
                 </div>
                 <div class="c_block">
                     <div class="m_title">2) 运营情况</div>
-                    <table class="c_base_table">
+                    <table class="base_table c_table">
                         <tr>
                             <td>出资人</td>
                             <td>
@@ -503,7 +503,7 @@
                 </div>
                 <div class="c_block">
                     <div class="m_title">3) 主要目的</div>
-                    <table class="c_base_table f_table fund_table">
+                    <table class="base_table market_table">
                        <tr>
                             <td>序号</td>
                             <td>项目名称</td>
@@ -556,7 +556,7 @@
                     </table>
                 </div>
             </div>
-        </div> -->
+        </div>
     </div>
 </template>
 
