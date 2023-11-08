@@ -1,0 +1,154 @@
+
+.c_block{      /* 内容块 */
+    margin: 14px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
+    font-size: 10.5pt;
+}
+
+.font_3{        /* 3号字体 */
+    font-size: 16pt;
+    font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
+}
+
+.title{        /* 四号 */
+    font-size: 14pt;
+    font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
+}
+
+.m_title{        /* 11 号字体 */
+    font-size: 11pt;
+    font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.font_5{        /* 5 号字体 */
+    font-size: 10.5pt;
+    font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
+}
+
+.font_s_5{        /* 小5 号字体 */
+    font-size: 9pt;
+    font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
+}
+
+.font_blue{
+    color: #4473c5;
+}
+.font_bg_blue{
+    background-color: #d9e2f3 !important;
+}
+
+.font_weight{
+    font-weight: bold;
+}
+
+.font-middle{
+    vertical-align: middle !important;
+}
+
+.clear_top_border{
+    border-top: 0px !important;
+}
+
+.clear_bottom_border{
+    border-bottom: 0px !important;
+    padding-bottom: 2px !important;
+}
+.clear_sides_border{
+    border-right:0px !important;
+    border-left:0px !important;
+}
+
+.c_base_table td {
+    border: 1px dotted #000;
+    padding: 4 8px;
+    padding-top: 4px;
+    text-align: left;
+    vertical-align: top; /* 设置垂直对齐到顶部 */
+}
+
+/* 第一列 */
+.c_base_table td:first-child {
+    background-color: #d9e2f3; /* 设置背景颜色 */
+    font-weight: bold; /* 设置字体加粗 */
+    width: 20%;
+    border-left: 1px dashed #c8c8c8;
+    box-sizing: border-box;
+}
+.c_base_table td p {
+   margin-top:0px;
+   margin-bottom:4px;
+}
+/* 设置第一行的上边框样式 */
+.c_base_table tr:first-child td {
+    border-top: 1px solid #4473c5; /* 设置上边框样式 */
+}
+/* 设置最后一行的下边框样式 */
+.c_base_table tr:last-child td {
+    border-bottom: 1px solid #4473c5; /* 设置下边框样式 */
+}
+/* 财务的表格信息 */
+.f_table td{
+    text-align: center;
+    vertical-align: top;
+}
+/* 财务第一列 */
+.f_table td:first-child{
+    background-color:#fff;
+    text-align: center;
+    font-weight: bold;
+    width: 25%;
+}
+/* 第一行 */
+.f_table tr:first-child td{
+    background-color: #d9e2f3; /* 设置背景颜色 */
+    font-weight: bold;
+}
+/* 基金第一列 */
+.market_table td:first-child, .fund_table td:first-child{
+    width: 10%;
+}
+
+/* 上市公司 */
+.market_table td{
+    vertical-align: middle;
+}
+
+/* 摘要段落样式 */
+.abstract_1 {
+    font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
+    padding-left: 10px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+}
+
+/* 一级目录样式 */
+.directory_1 {
+    font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
+    font-size: 11pt;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 0px;
+}
+
+/* 二级目录样式 */
+.directory_2 {
+    font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
+    font-size: 10pt;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+}
+
+li,p{
+    font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
+    letter-spacing: 1px; /* 设置字间距为2像素，根据需求修改 */
+    line-height: 1.4;
+}
