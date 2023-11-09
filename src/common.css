@@ -70,9 +70,13 @@ table {
 
 
 
-
-
-
+.logo{
+    text-align: center;
+}
+.logo img{
+    height: 150px;
+    width: 100px;
+}
 /* 摘要段落样式 */
 .abstract_1 {
     font-family: "华文楷体", "STKaiti", "SimKai", "KaiTi", cursive;
