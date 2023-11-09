@@ -189,6 +189,11 @@ table {
     width: 14%;
 }
 
+/* 拟申报的表格信息 */
+.value_table td:first-child{
+    width: 30%;
+}
+
 
 
 /* 公司表 */
