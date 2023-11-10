@@ -223,3 +223,8 @@ li,p{
     letter-spacing: 1px; /* 设置字间距为2像素，根据需求修改 */
     line-height: 1.4;
 }
+
+.page-break{
+    mso-special-character:line-break;
+    page-break-before:always;
+}
